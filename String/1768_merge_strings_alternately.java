@@ -17,6 +17,6 @@ class Solution {
         {
             sb.append(c2[j++]);
         }
-        return sbtoString();;;
+        return sb.toString();
     }
 }

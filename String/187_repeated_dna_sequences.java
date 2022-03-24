@@ -4,11 +4,13 @@ class Solution {
         Set<String> ans = new HashSet<>();
         int i = 0;
         int j = 10;
-        while(j <= s.length()) {
+        while(j <= s.length())
+         {
             String str = s.substring(i, j);
-            if(set.contains(str)) {
+            if(set.contains(str))
+             {
                 ans.add(str);
-            }
+             }
             set.add(str);
             i++;
             j++;

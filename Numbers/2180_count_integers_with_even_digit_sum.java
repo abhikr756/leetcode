@@ -10,12 +10,12 @@ class Solution {
              rem=n%10;
              sum=sum+rem;
              n=n/10;
-            }
+          }
             if(sum%2==0)
               {
                   count++;
               }
-          }
+      }
         return count;
     }
 }

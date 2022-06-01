@@ -5,6 +5,6 @@ class Solution {
         {
             ans[i] = Integer.bitCount(i);
         }
-        return ans;   
+        return ans; //returning the answer   
     }
 }

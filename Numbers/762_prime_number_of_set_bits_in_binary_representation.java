@@ -24,6 +24,5 @@ class Solution {
             c++;
         }
         return true;
-
     }
 }

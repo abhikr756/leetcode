@@ -1,0 +1,22 @@
+class Solution {
+    public List<String> twoEditWords(String[] queries, String[] dictionary) {
+        List<String> ans=new ArrayList<>();
+        for(var i:queries)
+        {
+            for(var j:dictionary)
+            {
+                int diff=0; 
+                for(int k=0;k<i.length();k++)
+                {
+                
+                    if(i.charAt(k)!=j.charAt(k)) diff++;
+                }
+                if(diff<=2) 
+                {
+                    ans.add(i); break;
+                } 
+            }
+        }
+        return ans; 
+    }
+}
